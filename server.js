@@ -9,9 +9,7 @@ hbs.registerPartials(__dirname + '/views/partials');
 app.set('view engine','hbs');
 
 
-// app.use((req,res,next) =>{
-//    res.render('maintainence.hbs');
-// });
+//adding some changes by nikhil..
 
 app.use(express.static(__dirname + '/public'));
 
